@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 180px repeat(4, 90px) 180px;
+    background-color: #EEEEEE;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.foto1 {
+    background-image: url("img/img1.jpg");
+    grid-area: 1 / 1 / 2 / 3;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto2 {
+    background-image: url("img/img2.jpg");
+    grid-area: 2 / 1 / 4 / 4;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto3 {
+    background-image: url("img/img3.jpg");
+    grid-area: 1 / 3 / 2 / 5;
+    background-size: cover;
+    background-position: center;
+}
+.foto4 {
+    background-image: url("img/img4.jpg");
+    grid-area: 1 / 5 / 3 / 8;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto5 {
+    background-image: url("img/img5.jpg");
+    grid-area: 4 / 2 / 6 / 4;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto6 {
+    background-image: url("img/img6.jpg");
+    grid-area: 2 / 4 / 3 / 5;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto7 {
+    background-image: url("img/img7.jpg");
+    grid-area: 6 / 2 / 7 / 4;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto8 {
+    background-image: url("img/img8.jpg");
+    grid-area: -1 / -1 / -3 / -3;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto9 {
+    background-image: url("img/img9.jpg");
+    grid-area: 3 / -4 / 5 / -2;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto10 {
+    background-image: url("img/imgcol1.jpg");
+    grid-area: 1 / -1 / 3 / -2;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto11 {
+    background-image: url("img/imgcol2.jpg");
+    grid-area: -1 / 1 / -4 / 2;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto12 {
+    background-image: url("img/imgcol3.jpg");
+    grid-area: 3 / 4 / 7 / 6;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto13 {
+    background-image: url("img/imgcol4.jpg");
+    grid-area: 3 / -1 / 5 / -2;
+    background-size: cover;
+    background-position: center;
+}
+
+.foto14 {
+    background-image: url("img/imgcol5.jpg");
+    grid-area: -1 / -3 / -3 / -4;
+    background-size: cover;
+    background-position: center;
+}
